@@ -1,0 +1,77 @@
+##########################################################################################################################################
+sequence of running files：
+
+##################################
+######## pre-processing ##########
+##################################
+
+1. adjust_and_crop_images.py
+# adjust the heat images and depth images and crop them into proper size
+# this operation adds new files:'crop_images' and the contents inside
+
+1.1. substitute virtual environment from 'damn' to 'forlabel' to label the images
+
+2. json_to_image.py
+# transfer .json file to .png file
+# this operation adds new directory:'json_to_image_result' and the contents inside 
+
+2.1. create 2 file directorys: 'crop images/bright_images' and 'crop images/dark_images' to separate the images from 'crop images/original_iamges' into bright and dark
+
+2.2 split_dataset.py
+# prepare .txt files for first training 
+
+2.3. training_on_depth.py
+# training the original dataset and get the weight to test which images should be generate in 'generate_original_img.py'
+
+3. generate_original_img.py
+# according to 'test_img_iou_3.txt', generate the original images based on worse performance iou 
+# according to '.txt' ,generate the original images based on good performance iou
+# (pick the images that qualified the request, the images in .txt file is selected based on the pervious training result)
+# this operation will increase the data number in dataset
+
+3.1. redo image separation of 'crop images/bright_images' and 'crop images/dark_images' from 'crop images/original_iamges' into bright and dark
+
+4. split_dataset.py
+# update the images created by 'generate_original_img.py'
+# this operation adds the txt files:'data_all.txt', 'data_test.txt', 'data_train.txt', 'bright_images.txt', 'dark_images.txt', 'test_bright.txt', 'test_dark.txt'
+
+5. generate_augment_img.py
+# generate augmentation images to increase the data only on training set
+# it will append the new images to 'data_train.txt'
+
+##################################
+########### training #############
+##################################
+
+6. training_on_depth.py
+# get the training result
+
+##################################
+######## post-processing #########
+##################################
+
+7. model_voting_performance.py
+# show the voting result
+# this operation can creates new files: 'test_img_iou.txt', 'test_img_iou_heat.txt', these files use in 'generate_augment_img.py' to generate new data in dataset
+
+7. show_result_on_custom_dataset.py
+# visualize the result
+
+model_voting.py
+# create voting models
+
+
+##################################
+###### infrared enhancing ########
+##################################
+
+version 1: threshold 
+1.adjust_infrared_threshold.py
+creating a new directory 'new_heat_images' which has contain every new heat images
+
+version 2:adding noise in heat images
+1.adjust_infrared_more_aug.py
+generate a new txt 'data_train_noise_heat1.txt' to replace the old operation
+creating two new directory 'depth_dataset/crop_images/noise_heat_images' and 'depth_dataset/crop_images/noise_heat_images_label' with new heat images and label images, and
+move those images to the correspoding ditrctory 'crop_images/heat_images' and 'json_to_image_result/SegmentationClassPNG'
+generate a .txt files:'noise_heat.txt'
