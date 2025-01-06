@@ -1,4 +1,4 @@
-# Crack-segmentation
+# Crack Segmentation
 
 ## Introduction
 
