@@ -28,7 +28,7 @@ This page provides some codes of **crack segmenation** on two datasets: **CrackS
 
 ## Special Thanks
 
-**1.** If I have seen further, it is by standing on the shoulders of giants," said Newton. During my research, Adam Cheng has been a giant to me. He completed the modification and correction of CrackSeg9k and allowed me to use it.
+**1.** If I have seen further, it is by standing on the shoulders of giants," said Newton. During my research, **Adam Cheng** has been a giant to me. He completed the modification and correction of CrackSeg9k and allowed me to use it.
 
 **2.** **Ray Yang** and **Miles Wu** helped me collecting all the data of customized dataset.
 
