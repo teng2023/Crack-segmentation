@@ -10,6 +10,8 @@ This page provides some codes of **crack segmenation** on two datasets: **CrackS
 
 **2.** Make sure checking the relationship between each files and directories instead of customized dataset since it is complicated inside.
 
+**3.** The file related to CrackSeg9k can't execute successfully since CrackSeg9k doesn't upload to GitHub and it has some modification.
+
 ### The content in the files
 
 **cunstomized dataset**：mainly all the images including visible light images, infrared images, and depth images.
@@ -24,5 +26,9 @@ This page provides some codes of **crack segmenation** on two datasets: **CrackS
 
 **information.txt**：initial version of recording the steps of the experiment.
 
-## Contribution
+## Special Thanks
+
+**1.** "If I have seen further, it is by standing on the shoulders of giants.", Newton said. During the research, **Adam Cheng** is the giant to me. He complete the modified and corrected CrackSeg9k and letting me used it.
+
+**2.** **Ray Yang** and **Miles Wu** helped me collecting all the data of customized dataset.
 
