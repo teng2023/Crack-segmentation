@@ -1,0 +1,8 @@
+test_all
+model 1: depth 1	resnet18+squeeze_se_sc+unet(depth)2/Epoch145_of_500.pth
+model 2: depth 2	resnet18+squeeze_se_sc+unet(depth)3/Epoch69_of_500.pth
+model 3: depth 3	resnet18+squeeze_se_sc+unet(depth)4/Epoch176_of_500.pth
+menaIoU : 0.7057435980555749
+pixel accuracy : 0.9000521438953488
+crack IoU : 0.5429367249573123
+background IoU : 0.8685504711538374

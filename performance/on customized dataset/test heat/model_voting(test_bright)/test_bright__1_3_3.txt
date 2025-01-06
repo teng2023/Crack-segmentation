@@ -1,0 +1,12 @@
+test_bright
+model 1: original 1	resnet18+squeeze_se_sc+unet(original)4/Epoch99_of_500.pth
+model 2: depth 1	resnet18+squeeze_se_sc+unet(depth)2/Epoch145_of_500.pth
+model 3: depth 2	resnet18+squeeze_se_sc+unet(depth)3/Epoch69_of_500.pth
+model 4: depth 3	resnet18+squeeze_se_sc+unet(depth)4/Epoch176_of_500.pth
+model 5: heat 1	resnet18+squeeze_se_sc+unet(heat)3/Epoch190_of_500.pth
+model 6: heat 2	resnet18+squeeze_se_sc+unet(heat)4/Epoch215_of_500.pth
+model 7: heat 3	resnet18+squeeze_se_sc+unet(heat)2/Epoch107_of_500.pth
+menaIoU : 0.7114810708023627
+pixel accuracy : 0.9077411337209301
+crack IoU : 0.5397383224515002
+background IoU : 0.8832238191532252

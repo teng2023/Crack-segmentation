@@ -1,0 +1,6 @@
+test_dark
+model 1: original	resnet18+squeeze_se_sc+unet(original)4/Epoch99_of_500.pth
+menaIoU : 0.6268063273735643
+pixel accuracy : 0.8461771802325582
+crack IoU : 0.43901944360063366
+background IoU : 0.8145932111464951
