@@ -1,1 +1,0 @@
-all selected txt files
