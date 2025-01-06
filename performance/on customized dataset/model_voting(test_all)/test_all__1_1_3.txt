@@ -1,0 +1,5 @@
+test_all
+menaIoU : 0.5598299753818272
+pixel accuracy : 0.7889853197674417
+crack IoU : 0.3933149030082534
+background IoU : 0.726345047755401
