@@ -1,4 +1,0 @@
-validation loss: 0.12178516359342413
-meaniou: 0.6829206347465515
-pixel accuracy: 0.9759678840637207
-IoUs: tensor([0.9755, 0.3904], device='cuda:0')
