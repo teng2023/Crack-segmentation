@@ -1,6 +1,0 @@
-test_bright
-model 1: depth	resnet18+squeeze_se_sc+unet(depth)4/Epoch176_of_500.pth
-menaIoU : 0.7234777411611303
-pixel accuracy : 0.9072700581395349
-crack IoU : 0.5720111051013499
-background IoU : 0.8749443772209107

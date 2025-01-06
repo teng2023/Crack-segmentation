@@ -1,8 +1,0 @@
-test_dark
-model 1: orginal 1	resnet18+squeeze_se_sc+unet(original)4/Epoch99_of_500.pth
-model 2: original 2	resnet18+squeeze_se_sc+unet(original)2/Epoch166_of_500.pth
-model 3: original 3	resnet18+squeeze_se_sc+unet(original)3/Epoch61_of_500.pth
-menaIoU : 0.6568735704474233
-pixel accuracy : 0.8612174418604651
-crack IoU : 0.4829006671492912
-background IoU : 0.8308464737455554
