@@ -4,6 +4,11 @@
 
 This page provides some codes of **crack segmenation** on two datasets: **CrackSeg9k** and **cumstomized dataset**, which include **visible light** images, **infrared** images, and **depth** images.
 
+### Notice
+
+**1.** Inside the python files, the directory should changed.
+**2.** Make sure checking the relationship between each files and directories instead of customized dataset since it is complicated inside.
+
 ### The content in the files
 
 **cunstomized dataset**：mainly all the images including visible light images, infrared images, and depth images.
