@@ -1,0 +1,130 @@
+
+2024/10/12 0:8:59
+Epoch: 1/10
+training loss: 0.1074597057565276
+validation loss: 0.0717387539314546
+meaniou: 0.679006814956665
+pixel accuracy: 0.9758059978485107
+IoUs: tensor([0.9750, 0.3830], device='cuda:0')
+training time (without val): 297.3230459690094
+training time (with val): 324.2627832889557
+best meaniou: Epoch1	0.679006814956665
+best crack iou: Epoch1	0.38300055265426636
+best pixel accuracy: Epoch1	0.9758059978485107
+
+2024/10/12 0:14:24
+Epoch: 2/10
+training loss: 0.06606975283698532
+validation loss: 0.05948992790621964
+meaniou: 0.7095896005630493
+pixel accuracy: 0.9794512391090393
+IoUs: tensor([0.9788, 0.4404], device='cuda:0')
+training time (without val): 296.0576682090759
+training time (with val): 322.7283732891083
+best meaniou: Epoch2	0.7095896005630493
+best crack iou: Epoch2	0.4404014050960541
+best pixel accuracy: Epoch2	0.9794512391090393
+
+2024/10/12 0:19:46
+Epoch: 3/10
+training loss: 0.059151077478449665
+validation loss: 0.05861693487159856
+meaniou: 0.7297351360321045
+pixel accuracy: 0.9785183668136597
+IoUs: tensor([0.9776, 0.4818], device='cuda:0')
+training time (without val): 295.7148015499115
+training time (with val): 323.0084433555603
+best meaniou: Epoch3	0.7297351360321045
+best crack iou: Epoch3	0.48184093832969666
+best pixel accuracy: Epoch2	0.9794512391090393
+
+2024/10/12 0:25:9
+Epoch: 4/10
+training loss: 0.057157630080774686
+validation loss: 0.055173248009135326
+meaniou: 0.7462297677993774
+pixel accuracy: 0.979846179485321
+IoUs: tensor([0.9790, 0.5135], device='cuda:0')
+training time (without val): 296.9683213233948
+training time (with val): 324.36525678634644
+best meaniou: Epoch4	0.7462297677993774
+best crack iou: Epoch4	0.5135008096694946
+best pixel accuracy: Epoch4	0.979846179485321
+
+2024/10/12 0:30:34
+Epoch: 5/10
+training loss: 0.05246129048313817
+validation loss: 0.05272000833170346
+meaniou: 0.738010823726654
+pixel accuracy: 0.9807157516479492
+IoUs: tensor([0.9799, 0.4961], device='cuda:0')
+training time (without val): 306.4458658695221
+training time (with val): 337.54465079307556
+best meaniou: Epoch4	0.7462297677993774
+best crack iou: Epoch4	0.5135008096694946
+best pixel accuracy: Epoch5	0.9807157516479492
+
+2024/10/12 0:36:11
+Epoch: 6/10
+training loss: 0.05209010629111837
+validation loss: 0.047721445882481124
+meaniou: 0.764731228351593
+pixel accuracy: 0.9825817346572876
+IoUs: tensor([0.9818, 0.5476], device='cuda:0')
+training time (without val): 310.67421436309814
+training time (with val): 338.67459416389465
+best meaniou: Epoch6	0.764731228351593
+best crack iou: Epoch6	0.5476453304290771
+best pixel accuracy: Epoch6	0.9825817346572876
+
+2024/10/12 0:41:50
+Epoch: 7/10
+training loss: 0.04973385136189132
+validation loss: 0.05085401413548324
+meaniou: 0.7373861074447632
+pixel accuracy: 0.980968713760376
+IoUs: tensor([0.9803, 0.4945], device='cuda:0')
+training time (without val): 315.1352891921997
+training time (with val): 347.2707874774933
+best meaniou: Epoch6	0.764731228351593
+best crack iou: Epoch6	0.5476453304290771
+best pixel accuracy: Epoch6	0.9825817346572876
+
+2024/10/12 0:47:37
+Epoch: 8/10
+training loss: 0.04881751956819589
+validation loss: 0.04716949326459144
+meaniou: 0.7830811738967896
+pixel accuracy: 0.9823014736175537
+IoUs: tensor([0.9814, 0.5848], device='cuda:0')
+training time (without val): 312.1948184967041
+training time (with val): 343.58028745651245
+best meaniou: Epoch8	0.7830811738967896
+best crack iou: Epoch8	0.5847501754760742
+best pixel accuracy: Epoch6	0.9825817346572876
+
+2024/10/12 0:53:21
+Epoch: 9/10
+training loss: 0.04651675920467824
+validation loss: 0.04520215057654746
+meaniou: 0.7750668525695801
+pixel accuracy: 0.9830636382102966
+IoUs: tensor([0.9823, 0.5678], device='cuda:0')
+training time (without val): 308.2854800224304
+training time (with val): 337.96022725105286
+best meaniou: Epoch8	0.7830811738967896
+best crack iou: Epoch8	0.5847501754760742
+best pixel accuracy: Epoch9	0.9830636382102966
+
+2024/10/12 0:58:59
+Epoch: 10/10
+training loss: 0.045890940602162276
+validation loss: 0.04687788511313354
+meaniou: 0.7731831073760986
+pixel accuracy: 0.9825676679611206
+IoUs: tensor([0.9819, 0.5645], device='cuda:0')
+training time (without val): 298.6493241786957
+training time (with val): 325.384076833725
+best meaniou: Epoch8	0.7830811738967896
+best crack iou: Epoch8	0.5847501754760742
+best pixel accuracy: Epoch9	0.9830636382102966

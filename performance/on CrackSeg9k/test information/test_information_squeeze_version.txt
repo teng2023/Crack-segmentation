@@ -1,0 +1,112 @@
+Total models:dict_keys(['resnet18+squeeze+unet', 'resnet18+squeeze_sc+unet', 'resnet18+squeeze_se_sc+unet', 'resnet18+squeeze_se+unet', 'resnet18+squeezenext+unet'])
+
+################### Model name: resnet18+squeeze+unet1 ###################
+
+Test loss: 0.07874964103952556
+Crack IoU: 0.6633530259132385
+Background IoU: 0.9843906164169312
+Meaniou: 0.8238718509674072
+Pixel accuracy: 0.9812361001968384
+
+
+################### Model name: resnet18+squeeze+unet2 ###################
+
+Test loss: 0.07733693646926744
+Crack IoU: 0.654382586479187
+Background IoU: 0.9845635294914246
+Meaniou: 0.8194730281829834
+Pixel accuracy: 0.9828438758850098
+
+
+################### Model name: resnet18+squeeze+unet3 ###################
+
+Test loss: 0.06981540770341073
+Crack IoU: 0.650857150554657
+Background IoU: 0.9840952754020691
+Meaniou: 0.817476212978363
+Pixel accuracy: 0.9836215376853943
+
+Pixel accuracy's average: 0.9825671315193176 	 standard deviation: 0.0009933116380125284
+Mean IoU's average: 0.8202736973762512 	 standard deviation: 0.0026716848369687796
+Crack IoU's average: 0.6561976075172424 	 standard deviation: 0.005260379984974861
+Background IoU's average: 0.98434978723526 	 standard deviation: 0.00019332964438945055
+
+################### Model name: resnet18+squeeze_sc+unet1 ###################
+
+Test loss: 0.08257450883595285
+Crack IoU: 0.672150731086731
+Background IoU: 0.9843226075172424
+Meaniou: 0.8282366991043091
+Pixel accuracy: 0.9819144606590271
+
+
+################### Model name: resnet18+squeeze_se_sc+unet15 ###################
+
+Test loss: 0.09647024857138875
+Crack IoU: 0.7052714824676514
+Background IoU: 0.9853687286376953
+Meaniou: 0.8453201055526733
+Pixel accuracy: 0.9837644100189209
+
+
+################### Model name: resnet18+squeeze_se_sc+unet16 ###################
+
+Test loss: 0.07539094514706651
+Crack IoU: 0.6966437697410583
+Background IoU: 0.9854109883308411
+Meaniou: 0.8410273790359497
+Pixel accuracy: 0.9834886193275452
+
+
+################### Model name: resnet18+squeeze_se_sc+unet17 ###################
+
+Test loss: 0.10294935604716025
+Crack IoU: 0.697265625
+Background IoU: 0.9852542877197266
+Meaniou: 0.8412599563598633
+Pixel accuracy: 0.9833753705024719
+
+Pixel accuracy's average: 0.9835427403450012 	 standard deviation: 0.00016338011482730508
+Mean IoU's average: 0.8425357937812805 	 standard deviation: 0.001971079967916012
+Crack IoU's average: 0.6997269988059998 	 standard deviation: 0.003928781021386385
+Background IoU's average: 0.985344648361206 	 standard deviation: 6.619641499128193e-05
+
+################### Model name: resnet18+squeeze_se+unet2 ###################
+
+Test loss: 0.09075977245445302
+Crack IoU: 0.6862232089042664
+Background IoU: 0.9854559302330017
+Meaniou: 0.835839569568634
+Pixel accuracy: 0.9828657507896423
+
+
+################### Model name: resnet18+squeeze_se+unet3 ###################
+
+Test loss: 0.10515943394322878
+Crack IoU: 0.6927946209907532
+Background IoU: 0.9852312803268433
+Meaniou: 0.8390129804611206
+Pixel accuracy: 0.982082724571228
+
+
+################### Model name: resnet18+squeeze_se+unet4 ###################
+
+Test loss: 0.091599010447251
+Crack IoU: 0.6905226707458496
+Background IoU: 0.9853882789611816
+Meaniou: 0.8379554748535156
+Pixel accuracy: 0.9831998348236084
+
+Pixel accuracy's average: 0.9827160835266113 	 standard deviation: 0.0004681734717451036
+Mean IoU's average: 0.8376026749610901 	 standard deviation: 0.0013193394988775253
+Crack IoU's average: 0.6898468136787415 	 standard deviation: 0.0027249993290752172
+Background IoU's average: 0.985358476638794 	 standard deviation: 9.409974154550582e-05
+
+################### Model name: resnet18+squeezenext+unet1 ###################
+
+Test loss: 0.060595841789780835
+Crack IoU: 0.6811938881874084
+Background IoU: 0.984602153301239
+Meaniou: 0.8328980207443237
+Pixel accuracy: 0.98307204246521
+
