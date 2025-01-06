@@ -7,6 +7,7 @@ This page provides some codes of **crack segmenation** on two datasets: **CrackS
 ### Notice
 
 **1.** Inside the python files, the directory should changed.
+
 **2.** Make sure checking the relationship between each files and directories instead of customized dataset since it is complicated inside.
 
 ### The content in the files
