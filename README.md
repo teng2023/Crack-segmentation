@@ -23,3 +23,6 @@ This page provides some codes of **crack segmenation** on two datasets: **CrackS
 **training files**：all the .py files that can train the model.
 
 **information.txt**：initial version of recording the steps of the experiment.
+
+## Contribution
+
