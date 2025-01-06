@@ -6,7 +6,7 @@ The the number of the images from every sensors (visible light, infrared, and de
 
 ### Directories
 
-* **crop images**：containing the images after executing "adjust_and_crop_images.py", and sorting the original images into bright images and dark images, so the directories "bright_images" and "dark_images" are from original images which sorting manually. "label_original" is the json file from labeling original images. "generate_img_depth.txt", "generate_img_infrared.txt", and "generate_img_original.txt" are used to judge which images should be augment.
+* **crop_images**：containing the images after executing "adjust_and_crop_images.py", and sorting the original images into bright images and dark images, so the directories "bright_images" and "dark_images" are from original images which sorting manually. "label_original" is the json file from labeling original images. "generate_img_depth.txt", "generate_img_infrared.txt", and "generate_img_original.txt" are used to judge which images should be augment.
 
 * **json_to_image_result**：containing the images after executing "adjust_and_crop_images.py". All the txt files are the list of corresponding images. "test_img_iou.txt", "test_img_iou_heat.txt", "test_img_iou_depth.txt", "test_img_iou_original.txt" are the crack IoU result when testing.
 
